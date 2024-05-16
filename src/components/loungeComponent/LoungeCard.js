@@ -81,6 +81,7 @@ function LoungeCard({ hotel }) {
         <img 
           className="card-image card-image-1"
           src={welcomeImage}
+          alt="hotel"
         />
   
     <div className='card-content-1'>

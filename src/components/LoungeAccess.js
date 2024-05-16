@@ -13,7 +13,7 @@ axios.defaults.withCredentials=true;
     useEffect(() => {
         const fetchHotels = async () => {
             try {
-                const response = await axios.get(`http://localhost:8000/api/hotels`);
+                const response = await axios.get(`https://ayodhya-bhraman-backend.vercel.app/api/hotels`);
                 
                 // Manually added JSON data
                 const manuallyAddedData = [

@@ -17,7 +17,7 @@ const Register = () => {
     const onSubmit = async e => {
         e.preventDefault();
         try {
-            const res = await axios.post(`http://localhost:8000/api/register`, {
+            const res = await axios.post(`https://ayodhya-bhraman-backend.vercel.app/api/register`, {
                 username,
                 password
             }, {

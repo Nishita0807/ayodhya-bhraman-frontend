@@ -43,7 +43,7 @@ const AddHotel = () => {
                     'x-auth-token': tokenWithoutBearer
                 }
             };
-            const res = await axios.post(`http://localhost:8000/api/hotels`, formData, config);
+            const res = await axios.post(`https://ayodhya-bhraman-backend.vercel.app/api/hotels`, formData, config);
             console.log(res.data);
             setFormData({
                 name: '',
