@@ -1,0 +1,92 @@
+/* contact.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .contact-box {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 20px 20px 36px rgba(107, 4, 86, 0.5), 0px 20px 36px rgba(17, 74, 71, 0.3);
+  }
+  
+  .icon-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 4rem; /* Adjust icon size */
+    margin: 0 10px; /* Adjust margin between icons */
+    box-shadow: 20px 20px 36px rgba(107, 4, 86, 0.5), 0px 20px 36px rgba(17, 74, 71, 0.3);
+    border-radius: 50%;
+  }
+  
+  .whatsapp {
+    color: green; /* Change color for WhatsApp icon */
+  }
+  
+  .telegram {
+    color: blue; /* Change color for Telegram icon */
+  }
+  
+  .discord {
+    color: darkblue; /* Change color for contact icon */
+  }
+  
+  .feedback-section {
+    margin-top: 20px;
+  }
+  
+  .feedback-section textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-y: scroll;
+  }
+  
+  
+  
+  .feedback-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%; /* Adjust as needed */
+    background: linear-gradient(to right, #6b0456, #114a47);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .feedback-section button:hover {
+    background: linear-gradient(to right, #6b0456, #114a47);
+  }
+  
+
+  @media (max-width:370px) {
+    .contact-box{
+      width: 250px;
+    }
+    
+    .icon{
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width:310px){
+    .contact-box{
+      width: 200px;
+    }
+
+    .icon{
+      font-size: 2rem;
+    }
+  }

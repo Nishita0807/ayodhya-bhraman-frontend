@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    position: relative; /* Change position to fixed */
+    bottom: 0;
+    left: 0;
+    padding: 18px;
+    background: linear-gradient(to right, #6b0456, #114a47);
+    color: white;
+    z-index: 1000;
+}
+
+@media (max-width:360px){
+    .footer{
+        font-size: 12px;
+    }
+}

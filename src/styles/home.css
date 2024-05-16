@@ -1,0 +1,70 @@
+.ayodhya-direction {
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.popup-container{
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    position: fixed;
+    bottom: 160px;
+    justify-content: center;
+    right: 10px;
+
+    
+}
+.popup-content{
+    padding: 24px;
+
+}
+
+.popup-icons{
+    display: flex;
+    gap:4px;
+    flex-direction: column;
+}
+.direction-icon,
+.scrollToTop {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(to right, #6b0456, #114a47);
+}
+.close-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding: 10px;
+    background: red;
+    border-radius: 50%;
+}
+.direction{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to right, #6b0456, #114a47);
+}

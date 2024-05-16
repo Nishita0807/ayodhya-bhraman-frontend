@@ -1,0 +1,72 @@
+.add-hotel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to viewport height */
+}
+
+.add-hotel-form {
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 20px 20px 36px rgba(107, 4, 86, 0.5), 0px 20px 36px rgba(17, 74, 71, 0.3);
+
+}
+
+
+.add-hotel-form h2 {
+    text-align: center;
+    color:#6b0456;
+    margin-bottom: 12px;
+}
+
+.add-hotel-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-hotel-form input{
+    width: 94%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-hotel-form select {
+    width: 99%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-hotel-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6b0456, #114a47);
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-hotel-form button:hover {
+    background: linear-gradient(to right, #6b0456, #114a47);
+}
+
+
+.categroy-hotel{
+    width: 100%;
+}
+
+
+@media (max-width:400px){
+    .add-hotel-form{
+        width: 240px;
+    }
+    .add-hotel-form h2{
+        font-size: 16px;
+    }
+}

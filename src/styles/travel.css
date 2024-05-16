@@ -1,0 +1,220 @@
+.travel {
+    height: 500px; /* Fixed height */
+    position: relative; /* Add position relative */
+    margin: 24px;
+   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+  }
+  
+  .card-list-wrapper,
+  .map-container {
+    flex: 1;
+  }
+  .card-list-wrapper{
+    height: 500px;
+    overflow:scroll; /* Enable scrolling */
+
+  }
+
+  .map-container{
+    border-radius: 24px;
+    box-shadow: 5px 5px 10px #6b0456, -5px -5px 10px #114a47, 
+    -5px 5px 10px #114a47, 5px -5px 10px #6b0456;
+  }
+
+
+  .card-list-wrapper{
+    border-radius: 24px;
+    border:2px solid yellow;
+    box-shadow: 5px 5px 10px #6b0456, -5px -5px 10px #114a47, 
+    -5px 5px 10px #114a47, 5px -5px 10px #6b0456;
+
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 12px;
+}
+
+.search-bar > input {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    border-right: none;
+    width: 60%;
+    background: linear-gradient(to right, #114a47, #6b0456);
+    padding: 12px;
+    color: white;
+}
+
+.search-icon {
+
+   justify-content: center;
+    padding: 5.5px;
+    color: white;
+    background: #6b0456;
+    border: 2px solid yellow;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    border-left: none;
+    height: 100%; /* Add this line to make the icon fit the height */
+}
+
+ 
+  .search-bar>input::placeholder{
+    padding: 12px;
+color: white;
+font-weight: 400;
+  }
+
+  .search-bar > input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: yellow; /* Apply border color when input is focused */
+  }
+
+
+  .tool-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+  .category-dropdown>select{
+    border: none;
+    background: linear-gradient(to right,  #114a47,#6b0456);
+    color: white;
+    padding: 12px;
+  
+margin-top: 12px;
+border-radius: 40px;
+border: 2px solid yellow;
+   
+  }
+
+  .category-dropdown > select:focus {
+    border-color: yellow; /* Border color when the select element is focused */
+}
+
+
+.category-dropdown > select > option {
+  color: black;
+  border-radius: 12px; /* Border radius for options */
+}
+
+.category-dropdown > select > option:checked {
+  background-color: #6b0456; /* Background color for selected option */
+  color: white;
+}
+
+
+
+
+/* styling for LoungeList page */
+
+
+.bar>input{
+ border: 2px solid yellow;
+  border-right: none;
+  
+  margin-top: 12px;    
+  background: linear-gradient(to right,  #114a47,#6b0456);
+  padding: 12px;
+  color: white;
+  border-radius: 24px;
+
+}
+
+
+.bar>input::placeholder{
+  padding: 12px;
+color: white;
+font-weight: 400;
+}
+
+.bar > input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: yellow; /* Apply border color when input is focused */
+}
+
+.prices{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 900px) {
+.travel{
+  height:auto;
+}
+
+.row{
+  flex-direction: column;
+}
+.card-list-wrapper>div{
+  height: 500px;
+  overflow-y:scroll; /* Enable scrolling */
+
+}
+.map-container>div{
+  height: 500px;
+}
+ 
+}
+
+@media (max-width: 400px){
+  .category-dropdown>select{
+    width: 110px;
+    font-size: 12px;
+  }
+
+
+  .search-bar{
+    width:150px;
+    
+  }
+
+  .search-bar>input::placeholder{
+    font-size: 12px;
+    padding: 0;
+  }
+}
+
+
+
+
+@media (max-width: 1130px){
+  .tool-bar{
+    align-items: center;
+    flex-direction: column-reverse;
+   
+  }
+
+  .category-dropdown>select{
+    width: 300px;
+  }
+
+  .bar>input{
+    width:150px;
+  }
+}
+@media (max-width: 420px){
+  .bar>input{
+    width: 100px;
+  }
+  .category-dropdown>select{
+    width: 200px;
+  }
+}
