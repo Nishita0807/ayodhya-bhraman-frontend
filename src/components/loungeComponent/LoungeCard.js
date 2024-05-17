@@ -64,12 +64,12 @@ function LoungeCard({ hotel }) {
         console.log('Message sent successfully');
       } else {
         console.error('Failed to send message');
-        alert('Failed to send message. Please try again later.');
+      
       }
     })
     .catch(error => {
       console.error('Error sending message:', error);
-      alert('Failed to send message. Please try again later.');
+      
     });
   };
   
