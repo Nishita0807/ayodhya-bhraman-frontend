@@ -19,7 +19,7 @@ axios.defaults.withCredentials=true;
                 const manuallyAddedData = [
                     {
                         _id: '1',
-                        name: 'Bedi's Dream Land Hotel',
+                        name: 'Bedis Dream Land Hotel',
                         contactNo: '8400334035',
                         category: 'Hotel',
                         minPrice: '3500',
