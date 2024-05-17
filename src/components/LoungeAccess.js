@@ -19,23 +19,21 @@ axios.defaults.withCredentials=true;
                 const manuallyAddedData = [
                     {
                         _id: '1',
-                        name: 'Hotel C',
-                        image: 'ayodhya1.jpg',
-                        contactNo: '9876543210',
+                        name: 'Bedi's Dream Land Hotel',
+                        contactNo: '8400334035',
                         category: 'Hotel',
-                        minPrice: '2000',
-                        maxPrice: '3000',
-                        mapLocation: '24.6868,56.7979'
+                        minPrice: '3500',
+                        maxPrice: '5000',
+                        mapLocation: '26.830412,82.219257'
                     },
                     {
                         _id: '2',
-                        name: 'Hotel BD',
-                        image: 'ayodhya2.jpg',
-                        contactNo: '9822543210',
+                        name: 'Shri Kanak Bhawan Prasad Grih',
+                        contactNo: '7942688663',
                         category: 'Dharamshala',
-                        minPrice: '100',
-                        maxPrice: '300',
-                        mapLocation: '28.40749513728814, 77.32735496710349'
+                        minPrice: '50',
+                        maxPrice: '200',
+                        mapLocation: '26.79756,82.19971'
                     },
                     // Add more objects as needed
                 ];
