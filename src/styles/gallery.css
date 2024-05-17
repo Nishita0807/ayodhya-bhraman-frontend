@@ -37,7 +37,7 @@
 .category:hover{
     cursor:pointer;
     box-shadow: 0px 12px 16px rgba(107, 4, 86, 1), 12px 12px 16px yellow;
-    width:100px;
+    padding:16px;
 }
 
   .image-name {
