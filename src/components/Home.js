@@ -49,12 +49,12 @@ const handleClosePopup = () => {
     setShowPopup(false);
 };
 const handleRailwayDirections = () => {
-  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.787879,82.20059`;
+  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.7878796,82.2005827`;
   window.open(url, "_blank");
 };
 
 const handleBusDirections = () => {
-  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.80876,82.20878`;
+  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.8092427,82.20959409999999`;
   window.open(url, "_blank");
 };
 
