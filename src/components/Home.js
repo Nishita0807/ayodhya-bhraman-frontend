@@ -49,7 +49,7 @@ const handleClosePopup = () => {
     setShowPopup(false);
 };
 const handleRailwayDirections = () => {
-  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.7878796,82.2005827`;
+  const url = `https://www.google.com/maps/dir/?api=1&origin=26.795688,82.194431&destination=26.790242863301344, 82.20023930237944`;
   window.open(url, "_blank");
 };
 
