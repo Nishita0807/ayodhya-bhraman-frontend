@@ -9,11 +9,14 @@ import "../styles/travel.css";
 function LoungeAccess() {
     const [hotels, setHotels] = useState([]);
     const [filteredHotels, setFilteredHotels] = useState([]); // State to store filtered hotels
-axios.defaults.withCredentials=true;
+
     useEffect(() => {
         const fetchHotels = async () => {
             try {
-                const response = await axios.get(`https://ayodhya-bhraman-backend.vercel.app/api/hotels`);
+                const response = await axios.get(`https://ayodhya-bhraman-backend.vercel.app/api/hotels`,{
+                      withCredentials: true,
+
+                });
                 
                 // Manually added JSON data
                 const manuallyAddedData = [
